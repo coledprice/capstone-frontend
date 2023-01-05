@@ -33,11 +33,11 @@ export function Home() {
     setIsFishsShowVisible(false);
   };
 
-  const handleCreateFishUser = (params, successCallback) => {
+  const handleCreateFishUser = (params) => {
     console.log("handleCreateFishUser", params);
     axios.post("http://localhost:3000/fish_users.json", params).then((response) => {
       setFishUsers([...fishUsers, response.data]);
-      successCallback();
+      // successCallback();
     });
   };
 
@@ -52,8 +52,8 @@ export function Home() {
 
       <FishsIndex fishs={fishs} onShowFish={handleShowFish} />
       <Modal show={isFishsShowVisible} onClose={handleClose}>
-        <FishsShow fish={currentFish} />
-        <FishUsersNew onCreateFishUser={handleCreateFishUser} />
+        <FishsShow onCreateFishUser={handleCreateFishUser} fish={currentFish} />
+        {/* <FishUsersNew fish={currentFish} onCreateFishUser={handleCreateFishUser} /> */}
       </Modal>
     </div>
   );
