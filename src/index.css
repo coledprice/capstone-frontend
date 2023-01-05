@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#fish-index img {
+  width: 350px;
+  height: 200px;
+  border: solid;
+  border: thick double brown;
+  border-width: 10px;
+
+}
