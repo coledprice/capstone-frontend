@@ -6,7 +6,8 @@ import { FishsIndex } from "./FishsIndex";
 import axios from "axios";
 import { Modal } from "./Modal";
 import { FishsShow } from "./FishsShow";
-import { FishUsersNew } from "./FishUsersNew";
+import { Catch } from "./Catch";
+// import { FishUsersNew } from "./FishUsersNew";
 
 export function Home() {
   const [fishs, setFishs] = useState([]);
@@ -45,15 +46,9 @@ export function Home() {
 
   return (
     <div>
-      <h1>NC FISHING!</h1>
-      <Signup />
-      <Login />
-      <LogoutLink />
-
       <FishsIndex fishs={fishs} onShowFish={handleShowFish} />
       <Modal show={isFishsShowVisible} onClose={handleClose}>
         <FishsShow onCreateFishUser={handleCreateFishUser} fish={currentFish} />
-        {/* <FishUsersNew fish={currentFish} onCreateFishUser={handleCreateFishUser} /> */}
       </Modal>
     </div>
   );

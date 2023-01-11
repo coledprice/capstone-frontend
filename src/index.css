@@ -8,5 +8,52 @@ html {
   border: solid;
   border: thick double brown;
   border-width: 10px;
+ 
 
+}
+
+
+
+
+#carouselExampleIndicators {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+#root {
+  background-image: url("https://t3.ftcdn.net/jpg/03/59/21/06/240_F_359210684_bENBBF1hjf8TCEOBLDjD8duECfDDRzMt.jpg");
+  background-repeat: no-repeat, repeat;
+  
+}
+
+
+#fishUser-index img {
+  width: 490px;
+  height: 390px;
+  border: solid;
+  border: thick double brown;
+  border-width: 10px;
+ 
+
+}
+
+#div1 {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+}
+
+.centered {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+
+h2 {
+  font-style: italic;
+  color: red;
+  
 }
