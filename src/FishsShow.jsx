@@ -45,7 +45,7 @@ export function FishsShow(props) {
           </div>
 
           <div>
-            <input defaultValue={props.fish.id} name="fish_id" />
+            <input id="fish-id" defaultValue={props.fish.id} name="fish_id" />
           </div>
           <br />
           <button className="btn btn-dark" type="submit">

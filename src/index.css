@@ -12,12 +12,16 @@ html {
 
 }
 
+#fish-id {
+  opacity: 0;
+}
+
 
 
 
 #carouselExampleIndicators {
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
 }
 
 #root {
