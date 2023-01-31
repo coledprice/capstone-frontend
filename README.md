@@ -14,3 +14,10 @@ This project is locally hosted, and pairs with [this backend](https://github.com
 ```
 npm install
 ```
+
+## Usage
+```
+npm run dev
+```
+
+You'll need [the backend code](https://github.com/coledprice/capstone) running on http://localhost:3000. You can view the app on http://localhost:5173.
