@@ -13,6 +13,8 @@ This project is locally hosted, and pairs with [this backend](https://github.com
 ## Installation
 ```
 npm install
+npm install bootstrap --save
+npm install react-router-dom@6
 ```
 
 ## Usage
