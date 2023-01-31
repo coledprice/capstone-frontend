@@ -23,3 +23,5 @@ npm run dev
 ```
 
 You'll need [the backend code](https://github.com/coledprice/capstone) running on http://localhost:3000. You can view the app on http://localhost:5173.
+
+![image](https://user-images.githubusercontent.com/116182313/215862732-e5ab2ec1-6383-43a5-a715-77c425873529.png)
