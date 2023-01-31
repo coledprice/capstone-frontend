@@ -5,3 +5,8 @@ This app allows a user to login and indentify a freshwater fish they caught in N
 
 This project is locally hosted, and pairs with [this backend](https://github.com/coledprice/capstone).
 
+## Libraries
+<ul>
+<li>React 18.2.0</li>
+</ul>
+
