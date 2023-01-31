@@ -10,3 +10,7 @@ This project is locally hosted, and pairs with [this backend](https://github.com
 <li>React 18.2.0</li>
 </ul>
 
+## Installation
+```
+npm install
+```
