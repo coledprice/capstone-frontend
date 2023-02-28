@@ -7,6 +7,7 @@ import axios from "axios";
 import { Modal } from "./Modal";
 import { FishsShow } from "./FishsShow";
 import { Catch } from "./Catch";
+import Weather from "./weather";
 // import { FishUsersNew } from "./FishUsersNew";
 
 export function Home() {
@@ -47,6 +48,7 @@ export function Home() {
   return (
     <div>
       <FishsIndex fishs={fishs} onShowFish={handleShowFish} />
+      <Weather />
       <Modal show={isFishsShowVisible} onClose={handleClose}>
         <FishsShow onCreateFishUser={handleCreateFishUser} fish={currentFish} />
       </Modal>
