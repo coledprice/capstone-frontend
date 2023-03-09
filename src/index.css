@@ -12,6 +12,37 @@ html {
 
 }
 
+#weather-img {
+
+ width: 50%;
+ height: 50%;
+ text-align: center;
+ border: none;
+display:inline-block;
+float:right;
+margin: 0;
+/* margin-top: -2rem; */
+margin-left: -2rem;
+padding: 0;
+
+  
+}
+
+#weather-temp{
+  margin-right: -2rem;
+  display: inline-block;
+}
+
+#weather-container {
+  text-align: center;
+  padding: 5px;
+align-items: center;
+justify-content: center;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
 #fish-id {
   opacity: 0;
 }

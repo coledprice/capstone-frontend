@@ -4,6 +4,7 @@ import { Modal } from "./Modal";
 import { Signup } from "./Signup";
 import { useState } from "react";
 import { Login } from "./Login";
+import Weather from "./weather";
 
 export function Header() {
   const [isSignupVisible, setIsSignupVisible] = useState(false);
@@ -172,6 +173,7 @@ export function Header() {
       <Modal show={isLoginVisible} onClose={handleLoginClose}>
         <Login />
       </Modal>
+      <Weather />
     </header>
   );
 }

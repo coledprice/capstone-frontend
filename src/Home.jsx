@@ -48,7 +48,7 @@ export function Home() {
   return (
     <div>
       <FishsIndex fishs={fishs} onShowFish={handleShowFish} />
-      <Weather />
+
       <Modal show={isFishsShowVisible} onClose={handleClose}>
         <FishsShow onCreateFishUser={handleCreateFishUser} fish={currentFish} />
       </Modal>
