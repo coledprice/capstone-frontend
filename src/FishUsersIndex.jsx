@@ -9,7 +9,9 @@ export function FishUsersIndex(props) {
 
   return (
     <div id="fishUser-index">
-      <h1 className="text-center">Your Catches</h1>
+      <br />
+      <br />
+      <h1 class="text-center">Your Catches</h1>
       <br />
       <div className="posts row text-bg-light mb-3">
         {props.fishusers.map((fishuser) => (

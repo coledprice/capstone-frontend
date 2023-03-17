@@ -37,29 +37,12 @@ function Weather() {
   }, []);
 
   return (
-    // <div className="Weather">
-    //   <b>Temperature:</b> {temp}°
-    //   <p>
-    //     <img id="weather-img" src={icon} class="rounded float-end" alt="..." />
-    //   </p>
-    // </div>
-
-    <div id="weather-container" class="card border-dark mb-3 float-end">
-      <div id="weather-temp" class="card-header">
-        <span>
-          {" "}
-          <div class="float-start">
-            <b>Temperature:</b> {temp}°
-          </div>{" "}
-          <img id="weather-img" src={icon} class="rounded float-end" alt="..." />
-        </span>
+    <div id="weather-container" class="container float-sm-end">
+      <img id="weather-image" src={icon} class="image float-end" alt="..." />
+      <br></br>
+      <div class="text float-end">
+        <b>Temperature:</b> {temp}°
       </div>
-      {/* <div class="card-body text-dark">
-        <p class="card-text">
-          {" "}
-         
-        </p>
-      </div> */}
     </div>
   );
 }

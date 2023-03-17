@@ -69,12 +69,12 @@ export function Header() {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <Link to="/" className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a className="btn btn-dark" aria-current="page" href="#">
                     Home
                   </a>
                 </Link>
                 <Link to="/catch" className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="btn btn-dark" href="#">
                     Catches
                   </a>
                 </Link>

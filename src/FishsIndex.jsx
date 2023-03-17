@@ -20,7 +20,7 @@ export function FishsIndex(props) {
     <div id="fish-index">
       <br />
       <br />
-      <h1 className="text-center">
+      <h1 class="text-center">
         <b>FRESHWATER</b>{" "}
         <h2 class="display-4">
           <b>Fishes</b>
